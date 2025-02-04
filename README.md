@@ -8,10 +8,9 @@ The UI supports **light and dark mode toggling**.
 
 ## 🚀 Live Demo
 
-🔗 **[View Deployed App](https://manufac-assignment-nine.vercel.app/)** _(Replace with actual link)_
+🔗 **[View Deployed App](https://manufac-assignment-nine.vercel.app/)** 
 
 ![Agriculture Visualization Screenshot](public/assets/screenshot.png)  
-_(Replace with an actual screenshot)_
 
 ---
 
