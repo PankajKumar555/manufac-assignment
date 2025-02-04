@@ -1,0 +1,51 @@
+:root {
+  --background-light: #ffffff;
+  --background-dark: #121212;
+  --text-light: #000000;
+  --text-dark: #ffffff;
+  --border-light: black;
+  --border-dark: white;
+}
+
+[data-mantine-color-scheme="light"] {
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+
+[data-mantine-color-scheme="dark"] {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+.table-container {
+  width: 95%;
+  height: 90vh;
+  overflow-y: auto;
+}
+.table-container table {
+  border: 1px solid var(--border-light);
+  border-collapse: collapse;
+}
+
+[data-mantine-color-scheme="dark"] .table-container table {
+  border: 1px solid var(--border-dark);
+}
+
+.table-container th,
+.table-container td {
+  border: 1px solid var(--border-light);
+  text-align: center;
+  padding: 8px;
+}
+
+[data-mantine-color-scheme="dark"] .table-container th,
+[data-mantine-color-scheme="dark"] .table-container td {
+  border: 1px solid var(--border-dark);
+}
+
+@media (max-width: 600px) {
+  .table-container {
+    width: 100%;
+    margin: auto;
+  }
+}

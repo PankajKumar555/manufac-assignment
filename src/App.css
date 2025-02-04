@@ -1,0 +1,23 @@
+.table-container {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.table-container::-webkit-scrollbar {
+  display: none;
+}
+
+.wraper {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .wraper {
+    display: inline-block;
+  }
+}
